@@ -1,0 +1,165 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    color: white;
+}
+body{
+    background-color: black;
+    height: 500vh;
+}
+.nav{
+    margin-top: 10px;
+    list-style: none;
+    border-color: red;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.bgpic{
+    margin-top: -2200px;
+}
+.navbox{
+    border-color: red;
+}
+.Delhipicdiv{
+    width: 1963.73px;
+    height: 1000px;
+    text-align: center;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 1)), url(../../../assets/chaptersPage/miguel-henriques-RfiBK6Y_upQ-unsplash.jpg);
+    opacity: 1;
+    background-repeat: no-repeat;
+    background-color: green;
+    background-size: cover;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+}
+.schedule{
+    opacity: 0.5;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 35px;
+    margin-top: 300px;
+    text-align: center;
+}
+.Delhitext{
+    font-size: 80px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.committee{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: -400px;
+}
+.com1{
+    background-color: red;
+    width: 250px;
+    height: 350px;
+    margin-top: 100px;
+    margin-left: 350px;
+    background-color: white;
+    border-radius: 1rem;
+    box-sizing: border-box;
+    position: absolute;
+    overflow: hidden;
+    border-style: solid;
+    border-color: #9b9b9b;
+    border-width: 2px;
+    border-top: 4px;
+    border-left: 4px;
+    border-right: 4px;
+    transition: 0.3s;
+}
+.com1:hover{
+    transform: scale(1.2);
+}
+.com2{
+    background-color: red;
+    width: 250px;
+    height: 350px;
+    margin-top: 100px;
+    margin-left: 850px;
+    background-color: white;
+    border-radius: 1rem;
+    box-sizing: border-box;
+    position: absolute;
+    overflow: hidden;
+    border-style: solid;
+    border-color: #9b9b9b;
+    border-width: 2px;
+    border-top: 4px;
+    border-left: 4px;
+    border-right: 4px;
+    transition: 0.3s;
+}
+.com2:hover{
+    transform: scale(1.2);
+}
+.com3{
+    background-color: red;
+    width: 250px;
+    height: 350px;
+    margin-top: 100px;
+    margin-left: 1350px;
+    background-color: white;
+    border-radius: 1rem;
+    box-sizing: border-box;
+    position: absolute;
+    overflow: hidden;
+    border-style: solid;
+    border-color: #9b9b9b;
+    border-width: 2px;
+    border-top: 4px;
+    border-left: 4px;
+    border-right: 4px;
+    transition: 0.3s;
+}
+.com3:hover{
+    transform: scale(1.2);
+}
+.com4{
+    background-color: red;
+    width: 250px;
+    height: 350px;
+    margin-top: 600px;
+    margin-left: 600px;
+    background-color: white;
+    border-radius: 1rem;
+    box-sizing: border-box;
+    position: absolute;
+    overflow: hidden;
+    border-style: solid;
+    border-color: #9b9b9b;
+    border-width: 2px;
+    border-top: 4px;
+    border-left: 4px;
+    border-right: 4px;
+    transition: 0.3s;
+}
+.com4:hover{
+    transform: scale(1.2);
+}
+.com5{
+    background-color: red;
+    width: 250px;
+    height: 350px;
+    margin-top: 600px;
+    margin-left: 1100px;
+    background-color: white;
+    border-radius: 1rem;
+    box-sizing: border-box;
+    position: absolute;
+    overflow: hidden;
+    border-style: solid;
+    border-color: #9b9b9b;
+    border-width: 2px;
+    border-top: 4px;
+    border-left: 4px;
+    border-right: 4px;
+    transition: 0.3s;
+}
+.com5:hover{
+    transform: scale(1.2);
+}
