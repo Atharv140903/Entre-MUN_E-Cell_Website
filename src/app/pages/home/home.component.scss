@@ -29,12 +29,32 @@ ul {
   justify-content: space-between;
   list-style: none;
   text-decoration: none;
+  padding: 0px;
+  margin: 0px;
   /* border: 2px solid green;    */
 }
 li {
+  padding: 0px;
   margin-top: 20px;
   margin-bottom: 20px;
   /* border: 2px solid orange; */
+}
+#regbtn button{
+  border: 2px solid white;
+  border-radius: 13px;
+  position: absolute;
+  top: 49px;
+  right: 130px;
+
+  background-color: transparent;
+  padding: 5px;
+  width: 120px;
+  font-size: x-large;
+  
+}
+#regbtn button:hover{
+  background-color: rgba(255, 255, 255, 0.4);
+  
 }
 // i{
 //     /* border: 2px solid red; */
@@ -44,16 +64,28 @@ li {
   height: 90px;
   margin-left: 20px;
 }
-#navitem {
-  /* border: 2px solid red; */
+#navitem button{
+  border: none; 
   margin-right: 30px;
+  background-color: transparent;
+}
+#navitem button:hover{
+  transform: scale(1.05);
 }
 // #esummit img {
 //   /* border: 2px solid red; */
 //   height: 110px;
 // }
-nav #myLinks {
+#c4, #c5, #c6, #c7 {
   display: none;
+  margin: 10px;
+}
+#myLinks {
+  display: none;
+ 
+}
+.s3{
+  display: block !important;
 }
 #myLinks a {
   color: white;
@@ -62,6 +94,7 @@ nav #myLinks {
   font-size: 27px;
   display: block;
   text-align: center;
+  
 }
 #myLinks a:hover {
   background-color: white;

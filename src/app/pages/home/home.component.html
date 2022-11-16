@@ -1,168 +1,228 @@
-<header>
-  <nav>
-    <div>
-      <ul>
-        <li id="ecell">
-          <a href="#"
-            ><img
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+ 
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+  />
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div>
+        <ul>
+          <li id="ecell">
+            <img
               src="../../../assets/homePage/logo-removebg-preview.png"
               alt="logo"
-          /></a>
-        </li>
-        <li id="esummit">
-          <a href="#"></a>
-          <img src="../../../assets/homePage/esummit.svg" alt="mun logo" />
-        </li>
-        <li id="navitem">
-          <a href="javascript:void(0);" class="icon" >
-            <i class="fa fa-bars fa-3x" id="icon"></i>
-          </a>
-        </li>
-      </ul>
+            />
+          </li>
+          <li id="esummit">
+            <img src="../../../assets/homePage/esummit.svg" alt="mun logo" />
+          </li>
+                
+          <li id="navitem">
+            <button class="icon" (click)="toggleMenu()">
+              <i class="fa fa-bars fa-3x" id="icon"></i>
+            </button>
+          </li>
+        </ul>
+        <div id="regbtn">
+          <button>Register</button>
+        </div>
+
+      </div>
+      <div id="myLinks">
+        <a href="#">Home</a>
+        <a href="#">Chapters</a>
+        <a href="#">Preparations</a>
+        <a href="#">AboutUs</a>
+      </div> 
+      
+      
+    </nav>
+  </header>
+  <div class="contentmax">
+    <div class="content">
+      <div class="image"></div>
+      <div class="para">
+        <div class="para1">
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam, enim
+            necessitatibus, aspernatur tempore eum laboriosam earum ratione
+            porro, aliquam voluptas vel magnam repellat reprehenderit inventore
+            totam quae aperiam nesciunt mollitia itaque? Magnam cupiditate et
+            doloribus nulla ex amet recusandae laborum.
+          </p>
+        </div>
+        <div class="para2">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente
+            fugiat accusamus quod veniam! Quis ullam explicabo pariatur corporis
+            totam minima.
+          </p>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem
+            dolores, veritatis aspernatur nostrum laudantium, explicabo maxime
+            architecto quod sunt voluptas quisquam expedita molestiae minus
+            harum natus rem tempore ab deleniti!
+          </p>
+        </div>
+      </div>
+      <div class="timeline">
+        <div class="divi d1">
+          <div>Lorem, ipsum.</div>
+          <div>Lorem, ipsum.</div>
+          <div>Lorem, ipsum.</div>
+          <div>Lorem, ipsum.</div>
+          <div>Lorem, ipsum.</div>
+        </div>
+        <div class="line">
+          <img src="../../../assets/homePage/line.png" alt="line" />
+        </div>
+        <div class="divi d2">
+          <div>Lorem, ipsum.</div>
+          <div>Lorem, ipsum.</div>
+          <div>Lorem, ipsum.</div>
+          <div>Lorem, ipsum.</div>
+          <div>Lorem, ipsum.</div>
+        </div>
+      </div>
     </div>
-    <div id="myLinks">
-      <a href="#">News</a>
-      <a href="#">Contact</a>
-      <a href="#">About</a>
+    <div class="chap">
+      <h1>THE CHAPTERS</h1>
     </div>
-  </nav>
-</header>
-<div class="contentmax">
-  <div class="content">
-    <div class="image"></div>
-    <div class="para">
-      <div class="para1">
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam, enim
-          necessitatibus, aspernatur tempore eum laboriosam earum ratione porro,
-          aliquam voluptas vel magnam repellat reprehenderit inventore totam
-          quae aperiam nesciunt mollitia itaque? Magnam cupiditate et doloribus
-          nulla ex amet recusandae laborum.
-        </p>
+
+    <div class="chapter">
+      <div>
+        <div>sdvdhnfhjdtyhnsrgf</div>
       </div>
-      <div class="para2">
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente
-          fugiat accusamus quod veniam! Quis ullam explicabo pariatur corporis
-          totam minima.
-        </p>
-        <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem
-          dolores, veritatis aspernatur nostrum laudantium, explicabo maxime
-          architecto quod sunt voluptas quisquam expedita molestiae minus harum
-          natus rem tempore ab deleniti!
-        </p>
+      <div>
+        <div>sdvdhnfhjdtyhnsrgf</div>
+      </div>
+      <div>
+        <div>sdvdhnfhjdtyhnsrgf</div>
+      </div>
+      <div>
+        <div>sdvdhnfhjdtyhnsrgf</div>
       </div>
     </div>
-    <div class="timeline">
-      <div class="divi d1">
-        <div>Lorem, ipsum.</div>
-        <div>Lorem, ipsum.</div>
-        <div>Lorem, ipsum.</div>
-        <div>Lorem, ipsum.</div>
-        <div>Lorem, ipsum.</div>
+    <div class="chap chap2">
+      <h1>FAQ'S</h1>
+    </div>
+    <div class="faq">
+
+      <!-- Faq-1 -->
+      <div>
+        <div class="c3">
+          <p>
+            <span>Q </span>Lorem ipsum dolor sit amet consectetur adipisicing
+            elit. Ipsum, nihil.
+          </p>
+
+          <i type="button" class="fa fa-duotone fa-caret-down fa-2x" (click)="faqShow1()"></i>
+
+          <div id="c4">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi,
+            suscipit! Quisquam quasi distinctio, quibusdam corporis sint illo, nam
+            labore magni sequi, rerum id saepe necessitatibus assumenda dicta quis
+            aliquam perspiciatis.
+          </div>
+
+        </div>
       </div>
-      <div class="line">
-        <img src="../../../assets/homePage/line.png" alt="line" />
+
+      <!-- Faq-2 -->
+      <div>
+        <div class="c3">
+          <p>
+            <span>Q </span>Lorem ipsum dolor sit amet consectetur adipisicing
+            elit. Ipsum, nihil.
+          </p>
+
+          <i type="button" class="fa fa-duotone fa-caret-down fa-2x" (click)="faqShow2()" ></i>
+
+          <div id="c5">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi,
+            suscipit! Quisquam quasi distinctio, quibusdam corporis sint illo, nam
+            labore magni sequi, rerum id saepe necessitatibus assumenda dicta quis
+            aliquam perspiciatis.
+          </div>
+
+        </div>
       </div>
-      <div class="divi d2">
-        <div>Lorem, ipsum.</div>
-        <div>Lorem, ipsum.</div>
-        <div>Lorem, ipsum.</div>
-        <div>Lorem, ipsum.</div>
-        <div>Lorem, ipsum.</div>
+
+      <!-- Faq-3 -->
+      <div>
+        <div class="c3">
+          <p>
+            <span>Q </span>Lorem ipsum dolor sit amet consectetur adipisicing
+            elit. Ipsum, nihil.
+          </p>
+
+          <i type="button" class="fa fa-duotone fa-caret-down fa-2x" (click)="faqShow3()" ></i>
+
+          <div id="c6">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi,
+            suscipit! Quisquam quasi distinctio, quibusdam corporis sint illo, nam
+            labore magni sequi, rerum id saepe necessitatibus assumenda dicta quis
+            aliquam perspiciatis.
+          </div>
+
+        </div>
       </div>
+
+      <!-- Faq-4 -->
+      <div>
+        <div class="c3">
+          <p>
+            <span>Q </span>Lorem ipsum dolor sit amet consectetur adipisicing
+            elit. Ipsum, nihil.
+          </p>
+
+          <i type="button" class="fa fa-duotone fa-caret-down fa-2x" (click)="faqShow4()" ></i>
+
+          <div id="c7">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi,
+            suscipit! Quisquam quasi distinctio, quibusdam corporis sint illo, nam
+            labore magni sequi, rerum id saepe necessitatibus assumenda dicta quis
+            aliquam perspiciatis.
+          </div>
+
+        </div>
+      </div>
+      
     </div>
   </div>
-  <div class="chap">
-    <h1>THE CHAPTERS</h1>
-  </div>
 
-  <div class="chapter">
-    <div>
-      <div>sdvdhnfhjdtyhnsrgf</div>
-    </div>
-    <div>
-      <div>sdvdhnfhjdtyhnsrgf</div>
-    </div>
-    <div>
-      <div>sdvdhnfhjdtyhnsrgf</div>
-    </div>
-    <div>
-      <div>sdvdhnfhjdtyhnsrgf</div>
-    </div>
-  </div>
-  <div class="chap chap2">
-    <h1>FAQ'S</h1>
-  </div>
-  <div class="faq">
-    <div>
-      <div class="c3">
-        <p>
-          <span>Q </span>Lorem ipsum dolor sit amet consectetur adipisicing
-          elit. Ipsum, nihil.
-        </p>
-
-        <i class="fa fa-duotone fa-caret-down fa-2x"></i>
-      </div>
-      <div class="c4">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi,
-        suscipit! Quisquam quasi distinctio, quibusdam corporis sint illo, nam
-        labore magni sequi, rerum id saepe necessitatibus assumenda dicta quis
-        aliquam perspiciatis.
-      </div>
-    </div>
-    <div>
-      <div class="c3">
-        <p>
-          <span>Q </span>Lorem ipsum dolor sit amet consectetur adipisicing
-          elit. Ipsum, nihil.
-        </p>
-
-        <i class="fa fa-duotone fa-caret-down fa-2x"></i>
-      </div>
-      <div class="c4">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi,
-        suscipit! Quisquam quasi distinctio, quibusdam corporis sint illo, nam
-        labore magni sequi, rerum id saepe necessitatibus assumenda dicta quis
-        aliquam perspiciatis.
-      </div>
-    </div>
-    <div>
-      <div class="c3">
-        <p>
-          <span>Q </span>Lorem ipsum dolor sit amet consectetur adipisicing
-          elit. Ipsum, nihil.
-        </p>
-
-        <i class="fa fa-duotone fa-caret-down fa-2x"></i>
-      </div>
-      <div class="c4">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi,
-        suscipit! Quisquam quasi distinctio, quibusdam corporis sint illo, nam
-        labore magni sequi, rerum id saepe necessitatibus assumenda dicta quis
-        aliquam perspiciatis.
-      </div>
-    </div>
-    <div>
-      <div class="c3">
-        <p>
-          <span>Q </span>Lorem ipsum dolor sit amet consectetur adipisicing
-          elit. Ipsum, nihil.
-        </p>
-
-        <i class="fa fa-duotone fa-caret-down fa-2x"></i>
-      </div>
-      <div class="c4">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi,
-        suscipit! Quisquam quasi distinctio, quibusdam corporis sint illo, nam
-        labore magni sequi, rerum id saepe necessitatibus assumenda dicta quis
-        aliquam perspiciatis.
-      </div>
-    </div>
-  </div>
-</div>
-
-<footer>
+  <footer>
     <!-- to be fetched from previous website -->
-</footer>
+  </footer>
+
+  <!-- <script>
+    /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
+    function myFunction() {
+      var x = document.getElementById("myLinks");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }
+
+    let answers = document.querySelectorAll(".fa");
+    answers.forEach((event) => {
+      event.addEventListener("click", () => {
+        if (event.classList.contains("active")) {
+          event.classList.remove("active");
+        } else {
+          event.classList.add("active");
+        }
+      });
+    });
+  </script> -->
+</body>
